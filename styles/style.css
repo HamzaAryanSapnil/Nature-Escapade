@@ -32,6 +32,9 @@
   display: flex;
   column-gap: 1rem;
 }
+
+/* nav styles */
+
 /* main styles */
 main{
   max-width: 1600px;
