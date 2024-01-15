@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
+
 /* shared styles */
 * {
   margin: 0;
@@ -21,16 +22,22 @@
   line-height: 1.625rem; /* 162.5% */
 }
 
+.btn-primary {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
 /* shared styles end */
 /* header styles */
 header {
   max-width: 75vw;
-  background-color: rgb(213, 164, 164);
   margin: 0 auto;
   margin-top: 3rem;
-  
 }
-header .logo-nav-container{
+header .logo-nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,24 +69,85 @@ nav ul li a {
   text-decoration: none;
   color: #424247;
 }
-
+.margin-left {
+  margin-left: 1.5rem;
+}
 /* banner styles */
 .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-top: 3.75rem;
-  background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 1rem;
+  row-gap: 3.125rem;
 }
-.banner-title{
-  color: #FFF;
-font-size: 4rem;
-font-weight: 800;
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 1.5rem;
+  align-items: center;
+  max-width: 670px;
+  padding-top: 6.625rem;
 }
-.banner-description{
-  color: #FFF;
-text-align: center;
-line-height: 1.625rem;
+.banner-title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
 }
+.banner-description {
+  color: #fff;
+  text-align: center;
+  line-height: 1.625rem;
+  font-weight: 500;
+}
+
+.banner .booking-section {
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.3);
+  margin-bottom: 6.625rem;
+}
+
+.booking-section .booking-form {
+  padding: 1rem 1.5rem;
+  display: flex;
+}
+.booking-section .booking-form input {
+  border-radius: 0.5rem;
+  border: 0;
+  padding: 1rem 3.25rem 1rem 1rem;
+}
+.find-now {
+  text-align: right;
+  padding: 1rem 2.125rem 1rem 4.188rem;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.down-arrow {
+  position: relative;
+  background: none;
+  right: 2.5rem;
+  top: 1.2rem;
+}
+.search-icon {
+  position: relative;
+  background: none;
+  color:white;
+  top: 0.9rem;
+  right: 8.5rem;
+}
+
 /* header styles end */
 /* main styles */
 main {
