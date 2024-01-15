@@ -11,13 +11,23 @@
   color: #ff5400;
 }
 
+.card-description {
+  color: #5a5a5d;
+  line-height: 1.625rem;
+}
+.section-description {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  line-height: 1.625rem; /* 162.5% */
+}
 
 /* shared styles end */
 /* header styles */
 header {
   max-width: 75vw;
-  background-color: rgb(161, 161, 161);
+  background-color: rgb(213, 164, 164);
   margin: 0 auto;
+  margin-top: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,17 +43,21 @@ header .logo .logo-title {
   font-weight: 800;
 }
 .blue {
-    color: #837acb;
-    padding: 0 5px;
-  }
+  color: #837acb;
+  padding: 0 5px;
+}
 nav ul {
   display: flex;
   list-style: none;
   align-items: center;
   gap: 2.75rem;
 }
+nav ul li:first-child {
+  font-weight: 700;
+}
 nav ul li a {
   text-decoration: none;
+  color: #424247;
 }
 
 /* header styles end */
