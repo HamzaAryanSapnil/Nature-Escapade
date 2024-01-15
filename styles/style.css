@@ -28,6 +28,9 @@ header {
   background-color: rgb(213, 164, 164);
   margin: 0 auto;
   margin-top: 3rem;
+  
+}
+header .logo-nav-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,6 +63,23 @@ nav ul li a {
   color: #424247;
 }
 
+/* banner styles */
+.banner {
+  margin-top: 3.75rem;
+  background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-title{
+  color: #FFF;
+font-size: 4rem;
+font-weight: 800;
+}
+.banner-description{
+  color: #FFF;
+text-align: center;
+line-height: 1.625rem;
+}
 /* header styles end */
 /* main styles */
 main {
