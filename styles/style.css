@@ -17,30 +17,30 @@
   border: 0;
   padding: 1rem 2.2rem;
 }
-.section-description{
-  color: rgba(19, 19, 24, 0.70);
-font-size: 1rem;
-font-weight: 400;
-line-height: 1.625rem; /* 162.5% */
+.section-description {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
 }
 
-.section-heading-title{
+.section-heading-title {
   color: #131318;
-text-align: center;
-font-size: 2.5rem;
-font-weight: 800;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
 }
 
-.section-title{
+.section-title {
   font-weight: 700;
 }
 
-.card-description{
-  color: #5A5A5D;
-font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.625rem; /* 162.5% */
+.card-description {
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
 }
 /* header styles */
 .header {
@@ -179,18 +179,16 @@ main {
   margin: 0 auto;
   margin-top: 6.25rem;
 }
-main section{
+main section {
   margin-bottom: 6.25rem;
 }
 /* Our Popular Tours section styles */
-.our-popular-tours{
+.our-popular-tours {
   display: flex;
   align-items: center;
   justify-content: space-around;
-
-  
 }
-.our-popular-tours-content{
+.our-popular-tours-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -198,52 +196,53 @@ main section{
   width: 45%;
   /* background-color: red; */
 }
-.our-popular-tours-content ul{
+.our-popular-tours-content ul {
   padding-left: 1.3rem;
 }
 
-.our-popular-tours-content ul li{
+.our-popular-tours-content ul li {
   padding: 1.2rem 0;
 }
 
-.our-popular-tours-content ul li h2{
+.our-popular-tours-content ul li h2 {
   padding-bottom: 1rem;
 }
 
-
-.our-popular-section-heading-title{
+.our-popular-section-heading-title {
   color: #131318;
-text-align: center;
-font-size: 2.5rem;
-font-weight: 800;
-padding-bottom: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding-bottom: 2rem;
 }
-.our-popular-section-card-description{
+.our-popular-section-card-description {
   padding-bottom: 2.3rem;
 }
-.our-popular-tours-img{
+.our-popular-tours-img {
   width: 45%;
   height: 100%;
   /* background-color: red; */
 }
-.our-popular-tours-img img{
+.our-popular-tours-img img {
   width: 100%;
   height: 100%;
 }
 
-
 /* choose-destination section styles */
-.choose-destination{
+.choose-destination {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.choose-destination-section-heading-title{
+.choose-destination-section-heading-title {
+  padding-bottom: 1.5rem;
+}
+.choose-destination-section-description{
   padding-bottom: 1.5rem;
 }
 
-.choose-destination-img-gallary{
+.choose-destination-img-gallary {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -254,104 +253,110 @@ padding-bottom: 2rem;
   width: 60%;
 }
 
-
-.choose-destination-img-gallary .choose-destination-imges img{
+.choose-destination-img-gallary .choose-destination-imges img {
   width: 100%;
   height: 100%;
 }
 
-.grid-item-1,.grid-item-2{
+.grid-item-1,
+.grid-item-2 {
   height: 300px;
   width: 100%;
+  border-radius: 1rem;
 }
-.grid-item-3,.grid-item-4,.grid-item-5{
+.grid-item-3,
+.grid-item-4,
+.grid-item-5 {
   height: 290px;
   width: 100%;
+  border-radius: 1rem;
 }
-.grid-item-6,.grid-item-7{
+.grid-item-6,
+.grid-item-7 {
   height: 300px;
   width: 100%;
+  border-radius: 1rem;
 }
 
-.grid-item-1{
-  background-image: url("../Images/Rectangle\ 5.png");
+.grid-item-1 {
+  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), url("../Images/Rectangle\ 5.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  grid-column: 1/span 6;
+  grid-column: 1 / span 6;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.grid-item-2{
-  background-image: url("../Images/Rectangle\ 8.png");
+.grid-item-2 {
+  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), url("../Images/Rectangle\ 8.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  grid-column: 7/span 6;
+  grid-column: 7 / span 6;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.grid-item-3{
-  background-image: url("../Images/Rectangle\ 6.png");
+.grid-item-3 {
+  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), url("../Images/Rectangle\ 6.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  grid-column: 1/span 3;
-  grid-row: 2/span 1;
+  grid-column: 1 / span 3;
+  grid-row: 2 / span 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.grid-item-4{
-  background-image: url("../Images/Rectangle\ 7.png");
+.grid-item-4 {
+  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), url("../Images/Rectangle\ 7.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  grid-column: 4/span 6;
-  grid-row: 2/span 1;
+  grid-column: 4 / span 6;
+  grid-row: 2 / span 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.grid-item-5{
-  background-image: url("../Images/Rectangle\ 9.png");
+.grid-item-5 {
+  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), url("../Images/Rectangle\ 9.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  grid-column: 10/span 3;
-  grid-row: 2/span 1;
+  grid-column: 10 / span 3;
+  grid-row: 2 / span 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.grid-item-6{
-  background-image: url("../Images/Rectangle\ 11.png");
+.grid-item-6 {
+  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), url("../Images/Rectangle\ 11.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  grid-column: 1/span 4;
-  grid-row: 3/span 1;
+  grid-column: 1 / span 4;
+  grid-row: 3 / span 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.grid-item-7{
-  background-image: url("../Images/Rectangle\ 10.png");
+.grid-item-7 {
+  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), url("../Images/Rectangle\ 10.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  grid-column: 5/span 8;
-  grid-row: 3/span 1;
+  grid-column: 5 / span 8;
+  grid-row: 3 / span 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.place-name{
-  color: #FFF;
-text-align: center;
-font-size: 1.75rem;
-font-weight: 800;
+.place-name {
+  color: #fff;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 800;
 }

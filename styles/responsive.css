@@ -1,4 +1,9 @@
 @media screen and (min-width:375px) and (max-width: 576px) {
+  main section{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 2rem;
+  }
   nav {
     display: none;
   }
@@ -48,12 +53,19 @@
     margin-bottom: 1rem;
   }
   
-  .our-popular-tours{
+  .choose-destination-img-gallary{
+    display: flex;
+  }
+
+  .our-popular-tours, .choose-destination,.choose-destination-img-gallary{
     flex-direction: column;
     width: 100%;
     align-items: center;
   }
-  .our-popular-tours-content{
+  .choose-destination-img-gallary .choose-destination-imges{
+    height:30vh ;
+  }
+  .our-popular-tours-content,.choose-destination, .choose-destination-content, .choose-destination-img-gallary{
     width: 90%;
   }
   .our-popular-tours-img{
