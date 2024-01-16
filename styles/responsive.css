@@ -1,5 +1,5 @@
-@media screen and (min-width:375px) and (max-width: 576px) {
-  main section{
+@media screen and (min-width: 375px) and (max-width: 576px) {
+  main section {
     margin: 0 auto;
     width: 90%;
     margin-top: 2rem;
@@ -41,7 +41,7 @@
     margin: 1rem 0 0 0;
     width: 255px;
   }
-  .banner-inputs select{
+  .banner-inputs select {
     padding: 1rem 4.5rem 1rem 1rem;
     margin: 1rem 0 0 0;
     width: 255px;
@@ -52,27 +52,35 @@
     width: 255px;
     margin-bottom: 1rem;
   }
-  
-  .choose-destination-img-gallary{
+
+  .choose-destination-img-gallary {
     display: flex;
   }
 
-  .our-popular-tours, .choose-destination,.choose-destination-img-gallary{
+  .our-popular-tours,
+  .choose-destination,
+  .choose-destination-img-gallary,
+  .deals-and-discount {
     flex-direction: column;
     width: 100%;
     align-items: center;
   }
-  .choose-destination-img-gallary .choose-destination-imges{
-    height:30vh ;
+  .choose-destination-img-gallary .choose-destination-imges {
+    height: 30vh;
   }
-  .our-popular-tours-content,.choose-destination, .choose-destination-content, .choose-destination-img-gallary, .why-us{
+  .our-popular-tours-content,
+  .choose-destination,
+  .choose-destination-content,
+  .choose-destination-img-gallary,
+  .why-us,
+  .deals-and-discount {
     width: 90%;
   }
-  .our-popular-tours-img{
+  .our-popular-tours-img {
     width: 90%;
     margin-top: 2rem;
   }
-  .section-heading-content{
+  .section-heading-content {
     width: 100%;
   }
   .section-heading-title {
@@ -83,9 +91,44 @@
     font-size: 0.8rem;
   }
 
-  .why-us-cards{
+  .why-us-cards {
     width: 100%;
     height: 100%;
   }
-  
+  .deals-and-discount{
+    gap: 1rem;
+  }
+  .deals-and-discount-main-container .card-description,
+  .deals-and-discount-card .icons {
+    font-size: 0.8rem;
+  }
+
+  .deals-and-discount-main-container {
+    gap: 1;
+  }
+
+  .deals-and-discount-main-header,
+  .deals-and-discount-main-main,
+  .deals-and-discount-main-footer {
+    justify-content: center;
+    padding: 4rem 1rem 1rem 1rem;
+  }
+  .deals-and-discount-card .icons {
+    flex-wrap: wrap;
+
+  }
+  .deals-and-discount-card {
+    padding: 1rem;
+    margin-top: 2.5rem;
+  }
+
+  .deals-and-discount-card .card-title{
+    padding: 0;
+  }
+  .deals-and-discount-card .icons i{
+    padding: 0.4rem;
+  }
+  .deals-and-discount-card .card-description{
+    padding: 2px;
+  }
 }
