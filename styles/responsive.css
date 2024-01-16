@@ -48,5 +48,16 @@
     margin-bottom: 1rem;
   }
   
-  
+  .our-popular-tours{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .our-popular-tours-content{
+    width: 90%;
+  }
+  .our-popular-tours-img{
+    width: 90%;
+    margin-top: 2rem;
+  }
 }
