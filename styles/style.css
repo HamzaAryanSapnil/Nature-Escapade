@@ -492,10 +492,23 @@ main section {
 /* deals and discount section styles */
 .deals-and-discount {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+.deals-discount-content{
+  margin-bottom: 0;
 }
 
 .deals-and-discount-main-container {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 /* main header */
@@ -531,11 +544,27 @@ main section {
   color: #ff5400;
   font-size: 1.25rem;
   font-weight: 800;
+  padding-bottom: 1rem;
 }
 
 .deals-and-discount-card .icons {
   font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #ff5400;
+}
+
+.deals-and-discount-card .icons i{
+  padding: 1rem;
+}
+
+.deals-and-discount-card .card-title{
+  padding: 1.5rem 0 0 0;
+}
+
+.deals-and-discount-card .card-description {
+  padding: 1rem 0;
 }
 
 /* main main */
