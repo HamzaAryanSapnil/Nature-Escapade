@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
 
 /* shared styles */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 /* header styles */
-.header{
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,7 @@
   border: 5px solid red;
 }
 
-.nav-section{
+.nav-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,12 +30,12 @@
 }
 
 /* logo styles */
-.logo-container{
+.logo-container {
   display: flex;
   align-items: center;
 }
 
- .header-title{
+.header-title {
   padding-left: 1rem;
   font-size: 2.25rem;
   font-weight: 800;
@@ -43,11 +43,11 @@
 }
 
 /* nav styles */
-nav{
+nav {
   width: 510px;
-  background-color:brown;
+  background-color: brown;
 }
-nav ul{
+nav ul {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -57,31 +57,36 @@ nav ul{
   color: #424247;
 }
 
-nav ul li a{
+nav ul li a {
   text-decoration: none;
 }
 
 /* banner styles */
 
-.banner{
+.banner {
   background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-
-.banner-title{
-  color: #FFF;
-font-size: 64px;
-font-weight: 800;
+.banner-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.banner-description{
-  color: #FFF;
-text-align: center;
-font-size: 16px;
-line-height: 26px; /* 162.5% */
+.banner-title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.banner-description {
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.625rem; /* 162.5% */
 }
 /* main styles */
-main{
+main {
   max-width: 1600px;
 }
