@@ -61,7 +61,8 @@
   .choose-destination,
   .choose-destination-img-gallary,
   .deals-and-discount,
-  .video {
+  .video,
+  .newsletter {
     flex-direction: column;
     width: 100%;
     align-items: center;
@@ -76,7 +77,8 @@
   .why-us,
   .deals-and-discount,
   .video,
-  .video-content {
+  .video-content,
+  .newsletter {
     width: 90%;
   }
   .our-popular-tours-img {
@@ -84,8 +86,9 @@
     margin-top: 2rem;
   }
   .section-heading-content,
-  .video-file 
-   {
+  .video-file,
+  .newsletter-content,
+  .newsletter-image {
     width: 100%;
   }
   .section-heading-title {
@@ -100,7 +103,7 @@
     width: 100%;
     height: 100%;
   }
-  .deals-and-discount{
+  .deals-and-discount {
     gap: 1rem;
   }
   .deals-and-discount-main-container .card-description,
@@ -120,22 +123,23 @@
   }
   .deals-and-discount-card .icons {
     flex-wrap: wrap;
-
   }
   .deals-and-discount-card {
     padding: 1rem;
     margin-top: 2.5rem;
   }
 
-  .deals-and-discount-card .card-title{
+  .deals-and-discount-card .card-title {
     padding: 0;
   }
-  .deals-and-discount-card .icons i{
+  .deals-and-discount-card .icons i {
     padding: 0.4rem;
   }
-  .deals-and-discount-card .card-description{
+  .deals-and-discount-card .card-description {
     padding: 2px;
   }
-  .video-content ul{
-  }
+  
+.newsletter{
+  gap: 1rem;
+}
 }

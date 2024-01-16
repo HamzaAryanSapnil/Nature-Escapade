@@ -648,6 +648,8 @@ background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%
   flex-direction: column;
   justify-content: start;
   align-items: start;
+  border-radius: 16px;
+border: 1px solid #FF5400;
 }
 
 .newsletter-title{
@@ -666,6 +668,7 @@ background: rgba(19, 19, 24, 0.05);
 width: 80%;
 padding: 1.2rem 3rem 1rem 1rem;
 margin:  1rem 0;
+border: 0;
 
 }
 
@@ -704,4 +707,17 @@ margin:  1rem 0;
   color: #FFF;
 font-size: 32px;
 font-weight: 800;
+}
+
+.newsletter-content{
+  padding: 1rem;
+}
+.newsletter-content hr{
+  width: 90%;
+  background: rgba(19, 19, 24, 0.10);
+}
+
+footer{
+  width: 100%;
+  background: rgba(19, 19, 24, 0.05);
 }
