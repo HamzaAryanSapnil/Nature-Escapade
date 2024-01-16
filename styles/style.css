@@ -587,3 +587,121 @@ main section {
 font-size: 2.5rem;
 font-weight: 800;
 } */
+
+
+/* video section styles */
+.video{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+
+}
+.video-content{
+  width: 45%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+
+  text-align: left;
+  flex-direction: column;
+}
+.video-content .section-heading-title{
+  text-align: left;
+}
+
+.video-content ul{
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.video-content ul li{
+  padding-bottom: 1rem;
+}
+.video-file{
+  width: 45%;
+}
+.video-file video{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+.video-file video span{
+  z-index: 11;
+}
+/* newsletter section styles */
+.newsletter{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+
+.newsletter-content{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.newsletter-title{
+  color: #131318;
+font-size: 1.5rem;
+font-weight: 800;
+padding-bottom: 1rem;
+}
+.newsletter-content .card-description{
+  padding-bottom: 1rem;
+}
+.newsletter-content input[type=text], 
+.newsletter-content input[type=email] {
+  border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+width: 80%;
+padding: 1.2rem 3rem 1rem 1rem;
+margin:  1rem 0;
+
+}
+
+.newsletter-content input[type=submit]{
+  width: 80%;
+}
+.newsletter-image{
+  background-image: url("../Images/Rectangle\ 8.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 40%;
+    height: 40vh;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.newsletter-image button{
+  
+  transform: rotate(335deg);
+  translate: -0.1rem -4rem;
+}
+.newsletter-image button .btn-primary{
+  border-radius: 8px;
+    background: #ff5400;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: 0;
+    padding: 1.8rem 2.2rem;
+}
+.newsletter-image button span.save{
+  color: #FFF;
+font-size: 32px;
+font-weight: 800;
+}

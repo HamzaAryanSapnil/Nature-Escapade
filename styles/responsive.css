@@ -60,7 +60,8 @@
   .our-popular-tours,
   .choose-destination,
   .choose-destination-img-gallary,
-  .deals-and-discount {
+  .deals-and-discount,
+  .video {
     flex-direction: column;
     width: 100%;
     align-items: center;
@@ -73,14 +74,18 @@
   .choose-destination-content,
   .choose-destination-img-gallary,
   .why-us,
-  .deals-and-discount {
+  .deals-and-discount,
+  .video,
+  .video-content {
     width: 90%;
   }
   .our-popular-tours-img {
     width: 90%;
     margin-top: 2rem;
   }
-  .section-heading-content {
+  .section-heading-content,
+  .video-file 
+   {
     width: 100%;
   }
   .section-heading-title {
@@ -130,5 +135,7 @@
   }
   .deals-and-discount-card .card-description{
     padding: 2px;
+  }
+  .video-content ul{
   }
 }
