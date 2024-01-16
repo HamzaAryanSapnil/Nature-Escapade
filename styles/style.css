@@ -60,6 +60,27 @@ nav ul{
 nav ul li a{
   text-decoration: none;
 }
+
+/* banner styles */
+
+.banner{
+  background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-title{
+  color: #FFF;
+font-size: 64px;
+font-weight: 800;
+}
+.banner-description{
+  color: #FFF;
+text-align: center;
+font-size: 16px;
+line-height: 26px; /* 162.5% */
+}
 /* main styles */
 main{
   max-width: 1600px;
