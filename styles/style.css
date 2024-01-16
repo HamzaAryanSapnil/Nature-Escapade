@@ -174,12 +174,30 @@ main section{
 /* Our Popular Tours section styles */
 .our-popular-tours{
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   
 }
+.our-popular-tours-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 577px;
+}
+
+.our-popular-tours-content ul li{
+  padding: 1.2rem 0;
+}
+
 .our-popular-section-heading-title{
   color: #131318;
 text-align: center;
 font-size: 2.5rem;
 font-weight: 800;
+padding-bottom: 2rem;
+}
+.our-popular-section-card-description{
+  padding-bottom: 2.8rem;
 }
