@@ -1,0 +1,29 @@
+@media screen and (max-width: 576px) {
+    nav{
+        display: none;
+    }
+    .nav-section{
+        justify-content: space-around;
+    }
+    .header-title{
+        font-size: 1.25rem;
+    }
+    .banner{
+        width: 90%;
+    }
+    .banner-content{
+        padding-top: 2rem;
+        width: 300px;
+    }
+
+    .banner-title{
+        font-size: 1.3rem;
+        padding-bottom: 0.5rem;
+    }
+    .banner-description{
+        padding-bottom: 1rem;
+    }
+    .bar{
+        display: block;
+    }
+}
