@@ -78,7 +78,8 @@
   .deals-and-discount,
   .video,
   .video-content,
-  .newsletter {
+  .newsletter,
+  .footer-header-content {
     width: 90%;
   }
   .our-popular-tours-img {
@@ -138,8 +139,25 @@
   .deals-and-discount-card .card-description {
     padding: 2px;
   }
-  
-.newsletter{
-  gap: 1rem;
-}
+
+  .newsletter {
+    gap: 1rem;
+  }
+  .footer-title {
+    font-size: 1.5rem;
+  }
+  .footer-description {
+    font-size: 1rem;
+  }
+  .footer-icons i {
+    font-size: 1.5rem;
+  }
+  footer hr{
+    width: 85%;
+  }
+  .copyright {
+    padding-bottom: 6.8rem;
+    width: 26%;
+    text-align: center;
+  }
 }
