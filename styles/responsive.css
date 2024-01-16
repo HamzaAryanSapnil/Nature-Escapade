@@ -160,4 +160,28 @@
     width: 26%;
     text-align: center;
   }
+  .meet-the-team{
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+  }
+  .meet-the-team-content {
+    padding: 1.5rem;
+  }
+
+  .team-member {
+    margin-top: 1rem;
+  }
+
+  .team-member img {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .team-member-name {
+    font-size: 1.2rem;
+  }
+
+  .team-member-role {
+    font-size: 0.9rem;
+  }
 }

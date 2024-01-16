@@ -716,6 +716,43 @@ font-weight: 800;
   width: 90%;
   background: rgba(19, 19, 24, 0.10);
 }
+
+/* Meet the Team Section Styles */
+
+.meet-the-team {
+  background-color: #f9f9f9;
+  padding: 3rem 0;
+  margin-bottom: 5rem;
+}
+
+.meet-the-team-content {
+  max-width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.meet-the-team h1 {
+  color: #FF5400;
+}
+
+
+
+.team-member {
+  margin-top: 1.5rem;
+}
+
+
+
+.team-member-name {
+  font-size: 1.8rem;
+  color: #5a5a5d;
+}
+
+.team-member-role {
+  font-size: 1.4rem;
+  color: #424247;
+}
+
 /* footer styles */
 footer{
   width: 100%;
