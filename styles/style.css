@@ -507,6 +507,10 @@ main section {
   background-position: center;
   width: 100%;
   border-radius: 1rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 4rem;
 }
 
 .deals-and-discount-card {
@@ -515,6 +519,12 @@ main section {
   border: 2px solid #fff;
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(2.5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3.5rem;
+  text-align: left;
 }
 
 .deals-and-discount-card .price {
@@ -534,6 +544,12 @@ main section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  width: 100%;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4rem;
 }
 /* main footer */
 
