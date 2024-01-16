@@ -15,8 +15,22 @@
   font-size: 1rem;
   font-weight: 700;
   border: 0;
+  padding: 1rem 2.2rem;
+}
+.section-description{
+  color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.625rem; /* 162.5% */
 }
 
+.card-description{
+  color: #5A5A5D;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 162.5% */
+}
 /* header styles */
 .header {
   display: flex;
@@ -25,6 +39,7 @@
   justify-content: center;
   max-width: 1600px;
   margin: 0 auto;
+  margin-bottom: 6.25rem;
 }
 
 .nav-section {
@@ -150,4 +165,21 @@ nav ul li a.home {
 /* main styles */
 main {
   max-width: 1600px;
+  margin: 0 auto;
+  margin-top: 6.25rem;
+}
+main section{
+  margin-bottom: 6.25rem;
+}
+/* Our Popular Tours section styles */
+.our-popular-tours{
+  display: flex;
+
+  
+}
+.our-popular-section-heading-title{
+  color: #131318;
+text-align: center;
+font-size: 2.5rem;
+font-weight: 800;
 }
