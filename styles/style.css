@@ -22,10 +22,9 @@
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.625rem; /* 162.5% */
-  
 }
 
-.section-heading-content{
+.section-heading-content {
   width: 643px;
   display: flex;
   flex-direction: column;
@@ -41,12 +40,18 @@
   text-align: center;
   font-size: 2.5rem;
   font-weight: 800;
-  
+
   padding-bottom: 1.5rem;
 }
 
 .section-title {
   font-weight: 700;
+}
+
+.card-title {
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 
 .card-description {
@@ -250,7 +255,7 @@ main section {
   justify-content: center;
 }
 
-.choose-destination-content{
+.choose-destination-content {
   width: 643px;
   display: flex;
   flex-direction: column;
@@ -265,7 +270,7 @@ main section {
 .choose-destination-section-heading-title {
   padding-bottom: 1.5rem;
 }
-.choose-destination-section-description{
+.choose-destination-section-description {
   padding-bottom: 1.5rem;
 }
 
@@ -306,7 +311,12 @@ main section {
 }
 
 .grid-item-1 {
-  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), url("../Images/Rectangle\ 5.png");
+  background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(<path-to-image>), url("../Images/Rectangle\ 5.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -316,7 +326,12 @@ main section {
   align-items: center;
 }
 .grid-item-2 {
-  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), url("../Images/Rectangle\ 8.png");
+  background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(<path-to-image>), url("../Images/Rectangle\ 8.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -326,7 +341,12 @@ main section {
   align-items: center;
 }
 .grid-item-3 {
-  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), url("../Images/Rectangle\ 6.png");
+  background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(<path-to-image>), url("../Images/Rectangle\ 6.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -337,7 +357,12 @@ main section {
   align-items: center;
 }
 .grid-item-4 {
-  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), url("../Images/Rectangle\ 7.png");
+  background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(<path-to-image>), url("../Images/Rectangle\ 7.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -348,7 +373,12 @@ main section {
   align-items: center;
 }
 .grid-item-5 {
-  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), url("../Images/Rectangle\ 9.png");
+  background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(<path-to-image>), url("../Images/Rectangle\ 9.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -359,7 +389,12 @@ main section {
   align-items: center;
 }
 .grid-item-6 {
-  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), url("../Images/Rectangle\ 11.png");
+  background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(<path-to-image>), url("../Images/Rectangle\ 11.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -370,7 +405,12 @@ main section {
   align-items: center;
 }
 .grid-item-7 {
-  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), url("../Images/Rectangle\ 10.png");
+  background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url(<path-to-image>), url("../Images/Rectangle\ 10.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -389,26 +429,26 @@ main section {
 }
 
 /* why-us section styles */
-.why-us{
+.why-us,
+.deals-and-discount {
   display: flex;
   flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.why-us-content{
+.why-us-content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.hotel-icon{
+.hotel-icon {
   font-size: 4rem;
   padding-bottom: 2rem;
   padding-top: 1.2rem;
 }
 
-.why-us-cards-container{
+.why-us-cards-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -416,7 +456,7 @@ main section {
   gap: 1.5rem;
 }
 
-.why-us-cards{
+.why-us-cards {
   padding: 2rem;
   padding-bottom: 3rem;
   display: flex;
@@ -425,15 +465,80 @@ main section {
   align-items: flex-start;
   width: 600px;
   height: 50vh;
-  border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
-}
-.why-us-card-title{
-  color: #131318;
-font-size: 24px;
+  border-radius: 1rem;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
 }
 
-.why-us-cards-container  .card-description{
+.why-us-world-class-service-card {
+  border-radius: 1rem;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.why-us-best-price-card {
+  background: rgba(233, 68, 68, 0.05);
+}
+
+.why-us-card-title {
+  color: #131318;
+  font-size: 1.5rem;
+}
+
+.why-us-cards-container .card-description {
   text-align: left;
 }
+
+/* deals and discount section styles */
+.deals-and-discount {
+  width: 100%;
+}
+
+.deals-and-discount-main-container {
+  width: 100%;
+}
+
+/* main header */
+.deals-and-discount-main-header,
+.deals-and-discount-main-footer {
+  background-image: url("../Images/Group\ 39.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.deals-and-discount-card {
+  width: 576px;
+  border-radius: 1rem;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+}
+
+.deals-and-discount-card .price {
+  color: #ff5400;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.deals-and-discount-card .icons {
+  font-size: 1.5rem;
+  color: #ff5400;
+}
+
+/* main main */
+.deals-and-discount-main-main {
+  background-image: url("../Images/Group\ 40.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* main footer */
+
+/* .deals-and-discount-title{
+  
+font-size: 2.5rem;
+font-weight: 800;
+} */

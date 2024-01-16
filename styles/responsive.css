@@ -65,11 +65,27 @@
   .choose-destination-img-gallary .choose-destination-imges{
     height:30vh ;
   }
-  .our-popular-tours-content,.choose-destination, .choose-destination-content, .choose-destination-img-gallary{
+  .our-popular-tours-content,.choose-destination, .choose-destination-content, .choose-destination-img-gallary, .why-us{
     width: 90%;
   }
   .our-popular-tours-img{
     width: 90%;
     margin-top: 2rem;
   }
+  .section-heading-content{
+    width: 100%;
+  }
+  .section-heading-title {
+    font-size: 1.2rem;
+  }
+  .section-description {
+    line-height: 1.3rem;
+    font-size: 0.8rem;
+  }
+
+  .why-us-cards{
+    width: 100%;
+    height: 100%;
+  }
+  
 }
