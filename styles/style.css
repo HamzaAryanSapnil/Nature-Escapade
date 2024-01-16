@@ -50,6 +50,11 @@ font-weight: 700;
   color: #FF5400;
 }
 
+/* bar styles */
+.bar {
+  display: none;
+  cursor: pointer;
+}
 
 /* nav styles */
 nav {
