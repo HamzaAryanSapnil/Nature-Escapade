@@ -9,11 +9,11 @@
 }
 .btn-primary {
   border-radius: 8px;
-background: #FF5400;
-color: #FFF;
-text-align: center;
-font-size: 1rem;
-font-weight: 700;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 /* header styles */
@@ -46,8 +46,8 @@ font-weight: 700;
   font-weight: 800;
   color: #131318;
 }
-.title-span{
-  color: #FF5400;
+.title-span {
+  color: #ff5400;
 }
 
 /* bar styles */
@@ -74,14 +74,19 @@ nav ul li a {
   text-decoration: none;
   color: #424247;
 }
-nav ul li a.home{
+nav ul li a.home {
   font-weight: 700;
 }
 
 /* banner styles */
 
 .banner {
-  background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.30) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0.3) 100%
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -93,7 +98,7 @@ nav ul li a.home{
   justify-content: center;
   text-align: center;
 }
-.banner-content{
+.banner-content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,7 +106,6 @@ nav ul li a.home{
   text-align: center;
   width: 680px;
   padding-top: 6.25rem;
-
 }
 .banner-title {
   color: #fff;
@@ -122,39 +126,26 @@ nav ul li a.home{
   padding-top: 0;
   margin-bottom: 6.25rem;
   border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
-position: relative;
-
+  background: rgba(255, 255, 255, 0.3);
 }
 .banner-inputs input {
   margin: 1rem 1rem 1rem 1rem;
   padding: 1rem 1rem 1rem 1rem;
-  border-radius:8px;
+  border-radius: 8px;
   border: 0;
 }
- #header-input-btn{
- padding: 1rem 2.125rem 1rem 4.125rem;
+.banner-inputs select {
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 1rem 6.875rem 1rem 1rem;
+  border-radius: 8px;
+  border: 0;
 }
-.select-type-icon{
-  position: absolute;
-  right: 15rem;
-  top: 2.2rem;
+#header-input-btn {
+  border: 0;
+  padding: 1rem 2.125rem 1rem 4.125rem;
+  margin-right: 1rem;
+}
 
-}
-.when-icon{
-  position: absolute;
-  right: 29rem;
-  top: 2.2rem;
-
-}
-.search-icon{
-  position: absolute;
-  right: 8rem;
-  top: 1.93rem;
-  font-size: 1.4rem;
-  color: white;
-
-}
 /* main styles */
 main {
   max-width: 1600px;

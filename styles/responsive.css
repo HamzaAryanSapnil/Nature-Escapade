@@ -1,29 +1,52 @@
-@media screen and (max-width: 576px) {
-    nav{
-        display: none;
-    }
-    .nav-section{
-        justify-content: space-around;
-    }
-    .header-title{
-        font-size: 1.25rem;
-    }
-    .banner{
-        width: 90%;
-    }
-    .banner-content{
-        padding-top: 2rem;
-        width: 300px;
-    }
+@media screen and (min-width:375px) and (max-width: 576px) {
+  nav {
+    display: none;
+  }
+  .nav-section {
+    justify-content: space-around;
+    height: 10vh;
+  }
+  .header-title {
+    font-size: 2rem;
+  }
+  .banner {
+    width: 90%;
+  }
+  .banner-content {
+    padding-top: 2rem;
+    width: 300px;
+  }
 
-    .banner-title{
-        font-size: 1.3rem;
-        padding-bottom: 0.5rem;
-    }
-    .banner-description{
-        padding-bottom: 1rem;
-    }
-    .bar{
-        display: block;
-    }
+  .banner-title {
+    font-size: 1.3rem;
+    padding-bottom: 0.5rem;
+  }
+  .banner-description {
+    padding-bottom: 1rem;
+  }
+  .bar {
+    display: block;
+  }
+
+  .banner-inputs {
+    width: 90%;
+  }
+  .banner-inputs input {
+    padding: 1rem 4.5rem 1rem 1rem;
+    margin: 1rem 0 0 0;
+    width: 255px;
+  }
+  .banner-inputs select{
+    padding: 1rem 4.5rem 1rem 1rem;
+    margin: 1rem 0 0 0;
+    width: 255px;
+  }
+  #header-input-btn {
+    padding: 1rem 4.5rem 1rem 1rem;
+    margin: 1rem 0 0 0;
+    width: 255px;
+    margin-bottom: 1rem;
+  }
+  
+  
 }
