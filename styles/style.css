@@ -823,11 +823,11 @@ font-weight: 800;
   margin-bottom: 5rem;
   border-radius: 1rem;
   width: 100%;
-  background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.1) 0%, rgba(19, 19, 24, 0.1) 100%), url("../Images/sajek\ 1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
+  flex-direction: column;
 }
 
 .meet-the-team-content  {
@@ -837,11 +837,22 @@ font-weight: 800;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 643px;
   
 }
+
+.team-member-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  column-gap: 21rem;
+  row-gap: 3rem;
+
+}
 .meet-the-team-content .section-heading-title{
-  color: #fff;
+  color: #FF5400;
 }
 .meet-the-team h1 {
   color: #FF5400;
@@ -850,9 +861,20 @@ font-weight: 800;
 
 
 .team-member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 1.5rem;
+  width: 300px;
 }
-
+.team-member .img{
+  background: url("../Images/me\ 1.jpg") no-repeat center  ; 
+  background-size: cover;
+  width: 100%;
+  border-radius: 0.8rem;
+  height: 40vh;
+}
 
 
 .team-member-name {
