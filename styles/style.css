@@ -512,21 +512,49 @@ main section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 3rem;
+}
+
+.last-min-title{
+  padding-bottom: 0.2rem;
 }
 
 .last-min-deals-img-container{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2.8rem;
 }
+
+.last-min-deals-img-container button{
+  width: 70%;
+  line-height: 1.3rem;
+}
+
 .lm-deals-img{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: start;
+  row-gap: 0.5rem;
 }
-
+.img-background{
+  background-image: url("../Images/cox\'s\ bazar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 14.5vw;
+  height: 25vh;
+  border-radius: 1rem;
+}
+.lm-deals-img .reviews small b{
+  font-weight: 900;
+}
+.lm-deals-img .reviews{
+}
+.lm-deals-img .reviews .title-span{
+  font-weight: 600;
+}
 /* deals and discount section styles */
 .deals-and-discount {
   width: 100%;
