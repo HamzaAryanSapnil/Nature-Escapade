@@ -520,7 +520,12 @@ main section {
   align-items: center;
   gap: 1.5rem;
 }
-
+.lm-deals-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+}
 
 /* deals and discount section styles */
 .deals-and-discount {
