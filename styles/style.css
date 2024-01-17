@@ -526,7 +526,7 @@ main section {
 /* main header */
 .deals-and-discount-main-header,
 .deals-and-discount-main-footer {
-  background-image: url("../Images/Group\ 39.png");
+  background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.1) 0%, rgba(19, 19, 24, 0.1) 100%), url("../Images/sajek\ 2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -550,6 +550,7 @@ main section {
   align-items: flex-start;
   padding: 3.5rem;
   text-align: left;
+  border: 3px solid #ff5400;
 }
 
 .deals-and-discount-card .price {
@@ -581,7 +582,7 @@ main section {
 
 /* main main */
 .deals-and-discount-main-main {
-  background-image: url("../Images/cox\'s\ bazar.jpg");
+  background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.1) 0%, rgba(19, 19, 24, 0.1) 100%), url("../Images/cox\'s\ bazar.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -594,7 +595,7 @@ main section {
 }
 /*deals main footer */
 .deals-and-discount-main-footer {
-  background-image: url("../Images/bandarban\ 1.jpg");
+  background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.1) 0%, rgba(19, 19, 24, 0.1) 100%), url("../Images/bandarban\ 1.jpg");
   background-position: left;
 }
 /* .deals-and-discount-title{
@@ -658,7 +659,7 @@ background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%
 
 
 .newsletter-content{
-  width: 45%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -695,7 +696,7 @@ border: 0;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 40%;
+  width: 45%;
     height: 40vh;
   border-radius: 1rem;
   display: flex;
