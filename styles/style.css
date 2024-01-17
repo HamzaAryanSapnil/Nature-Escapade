@@ -539,7 +539,20 @@ main section {
   justify-content: flex-start;
   align-items: start;
   row-gap: 0.5rem;
+  transition: all 0.5s cubic-bezier(0.31, 0.02, 0.71, 1);
 }
+
+.lm-deals-img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  border-radius: 1rem;
+  box-shadow: 0 0 0.5rem 0.1rem #FF5400;
+  transition: all 0.5s cubic-bezier(0.31, 0.02, 0.71, 1);
+  justify-content: center;
+  align-items: center;
+
+}
+
 .img-background{
   background-image: url("../Images/cox\'s\ bazar.jpg");
   background-repeat: no-repeat;
@@ -634,6 +647,12 @@ main section {
   padding: 3.5rem;
   text-align: left;
   border: 3px solid #ff5400;
+  transition: transform 0.3s ease-in-out;
+}
+.deals-and-discount-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .deals-and-discount-card .price {
