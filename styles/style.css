@@ -506,6 +506,8 @@ main section {
   display: flex;
   width: 100%;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .last-min-deals-content{
   display: flex;
@@ -543,17 +545,44 @@ main section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 14.5vw;
+  width: 16vw;
   height: 25vh;
   border-radius: 1rem;
 }
+.lm-img-sajek{
+  background-image: url("../Images/sajek\ 1.jpg");
+}
+
+.lm-img-bandarban{
+  background-image: url("../Images/bandarban\ 2.jpg");
+}
+
+.lm-img-sundarban{
+  background-image: url("../Images/sundarban\ 1.jpg");
+}
+
 .lm-deals-img .reviews small b{
   font-weight: 900;
 }
 .lm-deals-img .reviews{
+  font-weight: 800;
+  color: #131318;
+}
+.place-names{
+  
+  font-weight: 900;
 }
 .lm-deals-img .reviews .title-span{
   font-weight: 600;
+}
+
+.lm-place-title{
+  font-size: 1.5rem;
+  color: #FF5400;
+
+}
+.price-places{
+  font-weight: 800;
 }
 /* deals and discount section styles */
 .deals-and-discount {

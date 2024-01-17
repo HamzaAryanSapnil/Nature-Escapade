@@ -62,7 +62,9 @@
   .choose-destination-img-gallary,
   .deals-and-discount,
   .video,
-  .newsletter {
+  .newsletter,
+  .last-min-deals-img-container
+  {
     flex-direction: column;
     width: 100%;
     align-items: center;
@@ -79,7 +81,9 @@
   .video,
   .video-content,
   .newsletter,
-  .footer-header-content {
+  .footer-header-content,
+  .last-min-deals-img-container
+   {
     width: 90%;
   }
   .our-popular-tours-img {
@@ -89,7 +93,9 @@
   .section-heading-content,
   .video-file,
   .newsletter-content,
-  .newsletter-image {
+  .newsletter-image,
+  .why-us-cards,
+  .img-background {
     width: 100%;
   }
   .section-heading-title {
@@ -101,7 +107,6 @@
   }
 
   .why-us-cards {
-    width: 100%;
     height: 100%;
   }
   .deals-and-discount {
@@ -183,5 +188,20 @@
 
   .team-member-role {
     font-size: 0.9rem;
+  }
+
+  .img-background{
+    height: 30vh;
+  }
+  .lm-deals-img .reviews {
+    padding: 0 4rem;
+    text-align: center;
+  }
+  .lm-deals-img{
+    justify-content: center;
+    align-items: center;
+  }
+  .last-min-deals-content{
+    padding-bottom: 1rem;
   }
 }
