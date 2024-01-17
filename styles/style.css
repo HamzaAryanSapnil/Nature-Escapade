@@ -501,6 +501,27 @@ main section {
   text-align: left;
 }
 
+/* last min deals section styles */
+.last-min-deals{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.last-min-deals-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-min-deals-img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+
 /* deals and discount section styles */
 .deals-and-discount {
   width: 100%;
