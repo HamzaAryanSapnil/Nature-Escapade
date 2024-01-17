@@ -592,8 +592,11 @@ main section {
   align-items: center;
   padding: 4rem;
 }
-/* main footer */
-
+/*deals main footer */
+.deals-and-discount-main-footer {
+  background-image: url("../Images/bandarban\ 1.jpg");
+  background-position: left;
+}
 /* .deals-and-discount-title{
   
 font-size: 2.5rem;
