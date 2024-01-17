@@ -437,6 +437,7 @@ main section {
   transition: all 0.5s ease-in-out;
   cursor: pointer;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 25px #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 
 }
 
