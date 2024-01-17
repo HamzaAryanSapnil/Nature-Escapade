@@ -156,9 +156,11 @@
   }
   .footer-icons i {
     font-size: 1.5rem;
+    padding: 1rem;
   }
   footer hr{
     width: 85%;
+    margin: 1rem auto;
   }
   .copyright {
     padding-bottom: 6.8rem;
