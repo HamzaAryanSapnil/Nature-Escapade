@@ -868,14 +868,37 @@ font-weight: 800;
   margin-top: 1.5rem;
   width: 300px;
 }
-.team-member .img{
-  background: url("../Images/me\ 1.jpg") no-repeat center  ; 
+.team-member .img{ 
   background-size: cover;
   width: 100%;
   border-radius: 0.8rem;
   height: 40vh;
 }
 
+.team-member .team-member-name{
+  color: #FF5400;
+}
+
+
+ .img1{
+  background: url("../Images/me\ 1.jpg") no-repeat center  ;
+}
+.img2{
+  background-image: url("../Images/travel\ specailist.jpg");
+}
+
+.img3{
+  background-image: url("../Images/adventure\ guide.jpg");
+}
+.img4{
+  background-image: url("../Images/expedia.png");
+}
+.img5{
+  background-image: url("../Images/google.jpg");
+}
+.img6{
+  background-image: url("../Images/programming\ hero.svg");
+}
 
 .team-member-name {
   font-size: 1.8rem;

@@ -63,7 +63,8 @@
   .deals-and-discount,
   .video,
   .newsletter,
-  .last-min-deals-img-container
+  .last-min-deals-img-container,
+  .meet-the-team
   {
     flex-direction: column;
     width: 100%;
@@ -82,7 +83,8 @@
   .video-content,
   .newsletter,
   .footer-header-content,
-  .last-min-deals-img-container
+  .last-min-deals-img-container,
+  .meet-the-team
    {
     width: 90%;
   }
@@ -95,7 +97,8 @@
   .newsletter-content,
   .newsletter-image,
   .why-us-cards,
-  .img-background {
+  .img-background,
+  .meet-the-team-content  {
     width: 100%;
   }
   .section-heading-title {
@@ -203,7 +206,11 @@
     justify-content: center;
     align-items: center;
   }
-  .last-min-deals-content{
+  .last-min-deals-content,
+  .team-member-name{
     padding-bottom: 1rem;
+  }
+  .team-member-name{
+    padding-top: 1rem;
   }
 }
