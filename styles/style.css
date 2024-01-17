@@ -692,7 +692,7 @@ border: 0;
   width: 80%;
 }
 .newsletter-image{
-  background-image: url("../Images/Rectangle\ 8.png");
+  background-image: url("../Images/sajek\ 1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -736,17 +736,30 @@ font-weight: 800;
 /* Meet the Team Section Styles */
 
 .meet-the-team {
-  background-color: #f9f9f9;
   padding: 3rem 0;
   margin-bottom: 5rem;
+  border-radius: 1rem;
+  width: 100%;
+  background-image:linear-gradient(0deg, rgba(19, 19, 24, 0.1) 0%, rgba(19, 19, 24, 0.1) 100%), url("../Images/sajek\ 1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
 }
 
-.meet-the-team-content {
-  max-width: 1600px;
+.meet-the-team-content  {
   margin: 0 auto;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
 }
-
+.meet-the-team-content .section-heading-title{
+  color: #fff;
+}
 .meet-the-team h1 {
   color: #FF5400;
 }
